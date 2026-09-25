@@ -43,7 +43,7 @@ Map {
 }
 
 #roads {
-  [zoom >= 6] {
+  [zoom >= 7] {
     [fclass = "motorway"], [fclass = "trunk"] {
       line-color: dimgray;
       line-cap: square;
@@ -63,8 +63,9 @@ Map {
   }
 }
 
-#powerlines[zoom >= 9] {
+#powerlines[zoom >= 10] {
   line-color: dimgray;
+  line-width: 2;
   line-dasharray: 20, 6
 }
 
@@ -76,12 +77,15 @@ Map {
   plus-a/marker-spacing: 70;
   plus-a/marker-spacing-offset: 45;
   plus-a/marker-file: "symbols/plus.svg";
+  plus-a/marker-line-width: 2;
   plus-b/marker-placement: line;
   plus-b/marker-spacing: 70;
   plus-b/marker-spacing-offset: 55;
   plus-b/marker-file: "symbols/plus.svg";
+  plus-b/marker-line-width: 2;
 }
 
 #churches[zoom >= 10] {
   marker-file: "symbols/church.svg";
+  marker-line-width: 2;
 }
