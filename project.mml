@@ -23,7 +23,7 @@
             "srs": "EPSG:3857",
             "Datasource": {
                 "type": "shape",
-                "file": "water/simplified_water_polygons.shp"
+                "file": "data/water/simplified_water_polygons.shp"
             }
         },
         {
@@ -34,7 +34,7 @@
             "srs": "EPSG:4326",
             "Datasource": {
                 "type": "shape",
-                "file": "sweden-shp/gis_osm_water_a_free_1.shp"
+                "file": "data/sweden-shp/gis_osm_water_a_free_1.shp"
             }
         },
         {
@@ -45,7 +45,7 @@
             "srs": "EPSG:3006",
             "Datasource": {
                 "type": "shape",
-                "file": "tatort/tatorter_shp/To2020_SR99TM.shp"
+                "file": "data/tatort/tatorter_shp/To2020_SR99TM.shp"
             }
         },
         {
@@ -56,7 +56,7 @@
             "srs": "EPSG:4326",
             "Datasource": {
                 "type": "shape",
-                "file": "sweden-shp/gis_osm_railways_free_1.shp"
+                "file": "data/sweden-shp/gis_osm_railways_free_1.shp"
             }
         },
         {
@@ -67,7 +67,7 @@
             "srs": "EPSG:4326",
             "Datasource": {
                 "type": "shape",
-                "file": "sweden-shp/gis_osm_roads_free_1.shp"
+                "file": "data/sweden-shp/gis_osm_roads_free_1.shp"
             }
         },
         {
@@ -78,7 +78,7 @@
             "srs": "EPSG:4326",
             "Datasource": {
                 "type": "geojson",
-                "file": "powerlines.geojson"
+                "file": "data/powerlines.geojson"
             }
         },
         {
@@ -89,7 +89,7 @@
             "srs": "EPSG:4326",
             "Datasource": {
                 "type": "shape",
-                "file": "sweden-shp/gis_osm_adminareas_a_free_1.shp"
+                "file": "data/sweden-shp/gis_osm_adminareas_a_free_1.shp"
             }
         },
         {
@@ -100,7 +100,7 @@
             "srs": "EPSG:4326",
             "Datasource": {
                 "type": "geojson",
-                "file": "churches.geojson"
+                "file": "data/churches.geojson"
             }
         }
     ]
