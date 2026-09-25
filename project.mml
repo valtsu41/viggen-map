@@ -45,7 +45,7 @@
             "srs": "EPSG:3006",
             "Datasource": {
                 "type": "shape",
-                "file": "data/tatort/tatorter_shp/To2020_SR99TM.shp"
+                "file": "data/Tatorter_2023/Tatorter_2023.shp"
             }
         },
         {
