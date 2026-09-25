@@ -38,8 +38,7 @@ Map {
   line-smooth: 0.5;
 
   marker-placement: line;
-  marker-file: "symbols/bar.svg";
-  marker-line-color: saddlebrown;
+  marker-file: "symbols/sleeper.svg";
   marker-spacing: 5;
 }
 
