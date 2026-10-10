@@ -31,16 +31,16 @@ Map {
   line-smooth: 0.5;
 }
 
-#railways[fclass = "rail"][tunnel = "F"][zoom >= 8] {
-  line-color: saddlebrown;
-  line-width: 1;
-  line-simplify: 15;
-  line-smooth: 0.5;
-
-  marker-placement: line;
-  marker-file: "symbols/sleeper.svg";
-  marker-spacing: 5;
-}
+//#railways[fclass = "rail"][tunnel = "F"][zoom >= 8] {
+//  line-color: saddlebrown;
+//  line-width: 1;
+//  line-simplify: 15;
+//  line-smooth: 0.5;
+//
+//  marker-placement: line;
+//  marker-file: "symbols/sleeper.svg";
+//  marker-spacing: 5;
+//}
 
 #roads {
   [zoom >= 7] {
@@ -89,3 +89,8 @@ Map {
   marker-file: "symbols/church.svg";
   marker-line-width: 2;
 }
+
+//#pois[fclass = "lighthouse"] {
+//  marker-file: "shape://ellipse";
+//  marker-fill: red;
+//}
