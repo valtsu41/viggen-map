@@ -9,7 +9,7 @@ Map {
   polygon-smooth: 0.5;
 }
 
-#water[fclass = "water"] {
+#water {
   polygon-fill: gray;
   polygon-simplify: 15;
   polygon-simplify-algorithm: visvalingam-whyatt;
@@ -69,7 +69,7 @@ Map {
   line-dasharray: 20, 6
 }
 
-#adminareas::outline[fclass = "national"] {
+#adminareas::outline {
   line-color: dimgray;
   line-width: 2;
   line-dasharray: 30, 40;
@@ -85,9 +85,11 @@ Map {
   plus-b/marker-line-width: 2;
 }
 
-#churches[zoom >= 10] {
-  marker-file: "symbols/church.svg";
-  marker-line-width: 2;
+#pois[zoom >= 10] {
+  [class = "church"] {
+    marker-file: "symbols/church.svg";
+    marker-line-width: 2;
+  }
 }
 
 //#pois[fclass = "lighthouse"] {
