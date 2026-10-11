@@ -1,4 +1,5 @@
 data/
 ref/
-tiles/
+tiles-norm
+tiles-max
 venv/
