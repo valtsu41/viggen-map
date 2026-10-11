@@ -63,11 +63,11 @@ Map {
   }
 }
 
-#powerlines[zoom >= 10] {
+/*#powerlines[zoom >= 10] {
   line-color: dimgray;
   line-width: 2;
   line-dasharray: 20, 6
-}
+}*/
 
 #adminareas::outline {
   line-color: dimgray;
@@ -85,14 +85,14 @@ Map {
   plus-b/marker-line-width: 2;
 }
 
-#pois[zoom >= 10] {
+/*#pois[zoom >= 10] {
   [class = "church"] {
     marker-file: "symbols/church.svg";
     marker-line-width: 2;
   }
-}
+}*/
 
-//#pois[fclass = "lighthouse"] {
-//  marker-file: "shape://ellipse";
-//  marker-fill: red;
-//}
+/*#pois[fclass = "lighthouse"] {
+  marker-file: "shape://ellipse";
+  marker-fill: red;
+}*/
